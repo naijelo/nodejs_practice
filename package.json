@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_practice",
+  "version": "1.0.0",
+  "description": "test tasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naijelo/nodejs_practice.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "practice"
+  ],
+  "author": "Andre Ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naijelo/nodejs_practice/issues"
+  },
+  "homepage": "https://github.com/naijelo/nodejs_practice#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
